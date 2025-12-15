@@ -63,6 +63,14 @@
             color: #1a1a1a;
         }
 
+        .venue {
+            font-size: 1.8rem; 
+            font-weight: 600; 
+            color: #922b2b;   
+            margin-top: 5px; 
+            margin-bottom: 20px;
+        }
+
         .contributors {
             font-size: 1.1rem;
             margin-bottom: 40px;
@@ -277,7 +285,7 @@
             margin-bottom: 20px;
         }
         .contribution-item h3 {
-             font-size: 1.5rem;
+             font-size: 2.5rem;
              margin-bottom: 10px;
         }
         .contribution-item p {
@@ -409,7 +417,7 @@
         <section id="hero" class="full-width-section">
             <div class="section-content">
                 <h1>Semantic Correspondence:<br>Unified Benchmarking and a Strong Baseline</h1>
-                <!-- <h2> TPAMI </h2> -->
+                <p class="venue">TPAMI 2025</p>
                 <p class="contributors">
                     <span class="black-name">Kaiyan Zhang</span>,
                     <span class="black-name">Xinghui Li</span>,
@@ -420,7 +428,7 @@
                 </p>
                 
                 <div class="button-container">
-                    <a href="https://arxiv.org/abs/2505.18060" target="_blank" class="button" download="Semantic Correspondence.pdf">
+                    <a href="https://doi.org/10.1109/TPAMI.2025.3640429" target="_blank" class="button" download="Semantic Correspondence.pdf">
                         <img src="icons/pdf-icon.svg" alt="Paper Icon"> 
                         Paper
                     </a>
@@ -464,17 +472,14 @@
 
         <section id="contributions" class="full-width-section">
             <div class="section-content">
-                <div class="section-header">
-                    <h2 class="large-header">Core Contributions</h2>
-                </div>
                 <div class="contributions-grid">
                     <div class="contribution-item">
-                        <h3>Comprehensive Survey & Taxonomy</h3>
+                        <h3>Taxonomy</h3>
                         <img src="figs/taxonomy.jpg" alt="Taxonomy">
                         <p>This taxonomy provides a comprehensive overview of semantic correspondence methods to enhance feature quality, matching performance, or training strategies.</p>
                     </div>
                     <div class="contribution-item">
-                    <h3>A Strong SOTA Baseline</h3>
+                    <h3>A Strong Baseline</h3>
                     <p>We propose a simple yet effective baseline that achieves state-of-the-art performance on multiple benchmarks, offering a strong and solid foundation for future research in the field.</p>
     
                     <div class="table-container">
@@ -681,14 +686,12 @@
                         <button class="copy-button" onclick="copyBibtex()">
                             <img src="icons/bibtex-icon.svg" alt="Copy Icon">
                         </button>
-                        <pre class="bibtex-entry" id="bibtex-entry">    @article{semantic_correspondence_benchmark,
+                        <pre class="bibtex-entry" id="bibtex-entry">    @article{zhang2025semantic,
       title={Semantic Correspondence: Unified Benchmarking and a Strong Baseline}, 
       author={Kaiyan Zhang and Xinghui Li and Jingyi Lu and Kai Han},
+      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
       year={2025},
-      eprint={2505.18060},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.18060}, 
+      doi={10.1109/TPAMI.2025.3640429}
       }
 
 </pre>
